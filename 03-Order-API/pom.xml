@@ -76,12 +76,6 @@
 			<artifactId>razorpay-java</artifactId>
 			<version>1.4.8</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>02-Customer-API</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 
 	<build>
