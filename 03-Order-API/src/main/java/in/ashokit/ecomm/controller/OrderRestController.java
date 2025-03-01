@@ -26,7 +26,7 @@ public class OrderRestController {
 	private OrderService orderService;
 	
 	@PostMapping("/order")
-	public ResponseEntity<ApiResponse<PurchaseOrderResponse>> createOrder(PurchaseOrderRequest request)
+	public ResponseEntity<ApiResponse<PurchaseOrderResponse>> createOrder(@RequestBody PurchaseOrderRequest request)
 	{
 		ApiResponse<PurchaseOrderResponse> response = new ApiResponse<>();
 		
